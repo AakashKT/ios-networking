@@ -17,11 +17,11 @@ let netObj = Network(url: "https://example.com/example.json", username: "example
 <h3>Getting data from server</h3>
 <p>Use this function to get data, the argument passed is a closure for performing tasks after download has finished</p>
 <code>
-let netObj = Network(url: "http://example.com/example.json", type: "POST");
-netObj.getData({
-  (error) -> Void in
-  //put code to execute after download finished
-  
+let netObj = Network(url: "http://example.com/example.json", type: "POST");<br>
+netObj.getData({<br>
+  (error) -> Void in<br>
+  //put code to execute after download finished<br>
+  <br>
   
 });
 </code>
