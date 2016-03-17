@@ -25,11 +25,11 @@ netObj.getData({
 </code>
 <br>
 <code>
-  (error) -> Void in
+&nbsp;&nbsp;(error) -> Void in
 </code>
 <br>
 <code>
-  //put code to execute after download finished
+&nbsp;&nbsp;//put code to execute after download finished
 </code>
 <br>
 <code>
@@ -40,9 +40,20 @@ netObj.getData({
 <p>Use this function to send data and handle server response</p>
 <code>
 let netObj = Network(url: "http://example.com/example.json", type: "POST");
+</code>
+<br>
+<code>
 netObj.sendData("data1=value1&data2=value2&data3=value3", onReceive: {
-  (error) -> Void in 
-  //put code to execute after receiving server response
-  
+</code>
+<br>
+<code>
+&nbsp;&nbsp;(error) -> Void in 
+</code>
+<br>
+<code>
+&nbsp;&nbsp;//put code to execute after receiving server response
+</code>
+<br>
+<code>
 });
 </code>
